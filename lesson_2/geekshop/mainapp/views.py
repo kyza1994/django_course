@@ -1,7 +1,10 @@
 from django.shortcuts import render
 
 def main(request):
-    return render(request, 'mainapp/index.html', )
+    context = {
+        'title': 'Главная'
+    }
+    return render(request, 'mainapp/index.html', context)
 
 
 links_menu = [
@@ -14,12 +17,15 @@ links_menu = [
 
 
 def contact(request):
-    return render(request, 'mainapp/contact.html')
+    context = {
+        'title': 'Контакты'
+    }
+    return render(request, 'mainapp/contact.html', context)
 
 
 def products(request):
     content = {
-        #'title': title,
+        'title': 'Продукты',
         'links_menu': links_menu,
         #'same_products': same_products
     }
@@ -28,7 +34,7 @@ def products(request):
 
 def products_home(request):
     content = {
-        #'title': title,
+        'title': 'Продукты для дома',
         'links_menu': links_menu,
         #'same_products': same_products
     }
@@ -37,7 +43,7 @@ def products_home(request):
 
 def products_office(request):
     content = {
-        #'title': title,
+        'title': 'Продукты для офиса',
         'links_menu': links_menu,
         #'same_products': same_products
     }
@@ -45,7 +51,7 @@ def products_office(request):
 
 def products_modern(request):
     content = {
-        #'title': title,
+        'title': 'Продукты модерн',
         'links_menu': links_menu,
         #'same_products': same_products
     }
@@ -54,7 +60,7 @@ def products_modern(request):
 
 def products_classic(request):
     content = {
-        #'title': title,
+        'title': 'Продукты классика',
         'links_menu': links_menu,
         #'same_products': same_products
     }
