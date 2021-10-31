@@ -1,0 +1,58 @@
+[
+  {
+    "category": "Дом",
+    "name": "дом 1",
+    "image": "products_images/5ccb28dd16317_IMG_9997-160.jpg",
+    "price": 19999,
+    "quantity": 1
+  },
+  {
+    "category": "Дом",
+    "name": "дом 2",
+    "image": "products_images/6014021850.jpg",
+    "price": 999,
+    "quantity": 12
+  },
+  {
+    "category": "Офис",
+    "name": "офис 1",
+    "image": "products_images/d03bbff8f781a162bb7e937dd834a236_1221_1607.jpg",
+    "price": 3542,
+    "quantity": 24
+  },
+    {
+    "category": "Офис",
+    "name": "офис 2",
+    "image": "products_images/product-1.jpg",
+    "price": 97,
+    "quantity": 3
+  },
+    {
+    "category": "Офис",
+    "name": "офис 3",
+    "image": "products_images/product-2.jpg",
+    "price": 3443,
+    "quantity": 1
+  },
+  {
+    "category": "Классика",
+    "name": "классика 1",
+    "image": "products_images/product-3.jpg",
+    "price": 222,
+    "quantity": 7
+  },
+  {
+    "category": "Модерн",
+    "name": "модерн 1",
+    "image": "products_images/product-4.jpg",
+    "price": 6763,
+    "quantity": 12
+  },
+  {
+    "category": "Модерн",
+    "name": "модерн 2",
+    "image": "products_images/stol_pismenniy_aysberg_loft_01_cherniy_grafit.jpg",
+    "price": 225,
+    "quantity": 9
+  }
+]
